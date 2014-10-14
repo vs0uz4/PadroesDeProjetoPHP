@@ -1,6 +1,6 @@
 # DesignPatternsPHP
 
-Essa é uma coleção de Padrões de Projeto (Design Patterns) cnhecidos junto com 
+Essa é uma coleção de Padrões de Projeto (Design Patterns) conhecidos junto com 
 exemplos de códigos mostrando como implementá-los em PHP. Cada Padrão tem uma 
 pequena lista de exemplos (a maioria do Zend Framework, Symfony2 ou Doctrine2).
 
@@ -10,9 +10,8 @@ pessoas os conhecem, mas não sabem quando aplicá-los.
 ## Padrões de Projeto
 
 Os Padrões de Projeto podem ser estruturados em 3 categorias diferentes. Clique 
-no [:notebook:](http://pt.wikipedia.org/wiki/Software_design) para uma 
-explicação completa na Wikipedia -- sempre que possível em português, mas pode 
-haver algumas em inglês.
+no :notebook: para uma explicação completa na Wikipedia -- sempre que possível 
+em português, mas pode haver algumas em inglês.
 
 ### [Creacional](Creacional)
 
@@ -29,14 +28,14 @@ haver algumas em inglês.
 ### [Estrutural](Estrutural)
 
 * [Adapter](Structural/Adapter) [:notebook:](http://pt.wikipedia.org/wiki/Adapter)
-* [Bridge](Structural/Bridge) [:notebook:](http://pt.wikipedia.org/wiki/Bridge_(padr%C3%A3o_de_projeto_de_software)
+* [Bridge](Structural/Bridge) [:notebook:](http://pt.wikipedia.org/wiki/Bridge_%28padr%C3%A3o_de_projeto_de_software%29)
 * [Composite](Structural/Composite) [:notebook:](http://pt.wikipedia.org/wiki/Composite)
 * [DataMapper](Structural/DataMapper) [:notebook:](http://en.wikipedia.org/wiki/Data_mapper_pattern)
 * [Decorator](Structural/Decorator) [:notebook:](http://pt.wikipedia.org/wiki/Decorator)
 * [DependencyInjection](Structural/DependencyInjection) [:notebook:](http://en.wikipedia.org/wiki/Dependency_injection)
 * [Facade](Structural/Facade) [:notebook:](http://pt.wikipedia.org/wiki/Fa%C3%A7ade)
 * [FluentInterface](Structural/FluentInterface) [:notebook:](http://en.wikipedia.org/wiki/Fluent_interface)
-* [Proxy](Structural/Proxy) [:notebook:](http://pt.wikipedia.org/wiki/Proxy_(padr%C3%B5es_de_projeto)
+* [Proxy](Structural/Proxy) [:notebook:](http://pt.wikipedia.org/wiki/Proxy_%28padr%C3%B5es_de_projeto%29)
 * [Registry](Structural/Registry) [:notebook:](http://en.wikipedia.org/wiki/Service_locator_pattern)
 
 ### [Comportamental](Comportamental)
@@ -61,9 +60,10 @@ haver algumas em inglês.
 
 ## Contribua
 
-Este projeto é a tradução do repo [DesignPatternsPHP](https://github.com/domnikl/DesignPatternsPHP). 
-Para complementar/corrigir algo, por favor, faça um pull request no repo original 
-(em inglês) e, assim que possível, a correção/melhoria será colocada aqui.
+Este projeto é a tradução do repo [DesignPatternsPHP](https://github.com/domnikl/DesignPatternsPHP) 
+feita pela [webfatorial](http://webfatorial.com/). Para complementar/corrigir 
+algo, por favor, faça um pull request no repo original (em inglês) e, assim que 
+possível, a correção/melhoria será colocada aqui.
 
 ## Licença
 
