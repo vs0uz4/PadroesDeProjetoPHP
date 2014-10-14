@@ -1,66 +1,71 @@
 # DesignPatternsPHP
 
-[![Build Status](https://travis-ci.org/domnikl/DesignPatternsPHP.png?branch=master)](https://travis-ci.org/domnikl/DesignPatternsPHP)
+Essa é uma coleção de Padrões de Projeto (Design Patterns) cnhecidos junto com 
+exemplos de códigos mostrando como implementá-los em PHP. Cada Padrão tem uma 
+pequena lista de exemplos (a maioria do Zend Framework, Symfony2 ou Doctrine2).
 
-This is a collection of known design patterns and some sample code how to implement them in PHP. Every pattern has a small list of examples (most of them from Zend Framework, Symfony2 or Doctrine2 as I'm most familiar with this software).
+Provavelmente o maior problema com Padrões de Projeto é que frequentemente as 
+pessoas os conhecem, mas não sabem quando aplicá-los.
 
-I think the problem with patterns is that often people do know them but don't know when to apply which.
+## Padrões de Projeto
 
-## Patterns
+Os Padrões de Projeto podem ser estruturados em 3 categorias diferentes. Clique 
+no [:notebook:](http://pt.wikipedia.org/wiki/Software_design) para uma 
+explicação completa na Wikipedia -- sempre que possível em português, mas pode 
+haver algumas em inglês.
 
-The patterns can be structured in roughly three different categories. Please click on the [:notebook:](http://en.wikipedia.org/wiki/Software_design_pattern) for a full explanation of the pattern on Wikipedia.
+### [Creacional](Creacional)
 
-### [Creational](Creational)
-
-* [AbstractFactory](Creational/AbstractFactory) [:notebook:](http://en.wikipedia.org/wiki/Abstract_factory_pattern)
-* [Builder](Creational/Builder) [:notebook:](http://en.wikipedia.org/wiki/Builder_pattern)
-* [FactoryMethod](Creational/FactoryMethod) [:notebook:](http://en.wikipedia.org/wiki/Factory_method_pattern)
-* [Multiton](Creational/Multiton) (is considered an anti-pattern! :no_entry:)
+* [AbstractFactory](Creational/AbstractFactory) [:notebook:](http://pt.wikipedia.org/wiki/Abstract_Factory)
+* [Builder](Creational/Builder) [:notebook:](http://pt.wikipedia.org/wiki/Builder)
+* [FactoryMethod](Creational/FactoryMethod) [:notebook:](http://pt.wikipedia.org/wiki/Factory_Method)
+* [Multiton](Creational/Multiton) (considerado um anti-pattern! :no_entry:)
 * [Pool](Creational/Pool) [:notebook:](http://en.wikipedia.org/wiki/Object_pool_pattern)
-* [Prototype](Creational/Prototype) [:notebook:](http://en.wikipedia.org/wiki/Prototype_pattern)
+* [Prototype](Creational/Prototype) [:notebook:](http://pt.wikipedia.org/wiki/Prototype)
 * [SimpleFactory](Creational/SimpleFactory)
-* [Singleton](Creational/Singleton) [:notebook:](http://en.wikipedia.org/wiki/Singleton_pattern) (is considered an anti-pattern! :no_entry:)
+* [Singleton](Creational/Singleton) [:notebook:](http://pt.wikipedia.org/wiki/Singleton) (considerado um anti-pattern! :no_entry:)
 * [StaticFactory](Creational/StaticFactory)
 
-### [Structural](Structural)
+### [Estrutural](Estrutural)
 
-* [Adapter](Structural/Adapter) [:notebook:](http://en.wikipedia.org/wiki/Adapter_pattern)
-* [Bridge](Structural/Bridge) [:notebook:](http://en.wikipedia.org/wiki/Bridge_pattern)
-* [Composite](Structural/Composite) [:notebook:](http://en.wikipedia.org/wiki/Composite_pattern)
+* [Adapter](Structural/Adapter) [:notebook:](http://pt.wikipedia.org/wiki/Adapter)
+* [Bridge](Structural/Bridge) [:notebook:](http://pt.wikipedia.org/wiki/Bridge_(padr%C3%A3o_de_projeto_de_software)
+* [Composite](Structural/Composite) [:notebook:](http://pt.wikipedia.org/wiki/Composite)
 * [DataMapper](Structural/DataMapper) [:notebook:](http://en.wikipedia.org/wiki/Data_mapper_pattern)
-* [Decorator](Structural/Decorator) [:notebook:](http://en.wikipedia.org/wiki/Decorator_pattern)
+* [Decorator](Structural/Decorator) [:notebook:](http://pt.wikipedia.org/wiki/Decorator)
 * [DependencyInjection](Structural/DependencyInjection) [:notebook:](http://en.wikipedia.org/wiki/Dependency_injection)
-* [Facade](Structural/Facade) [:notebook:](http://en.wikipedia.org/wiki/Facade_pattern)
+* [Facade](Structural/Facade) [:notebook:](http://pt.wikipedia.org/wiki/Fa%C3%A7ade)
 * [FluentInterface](Structural/FluentInterface) [:notebook:](http://en.wikipedia.org/wiki/Fluent_interface)
-* [Proxy](Structural/Proxy) [:notebook:](http://en.wikipedia.org/wiki/Proxy_pattern)
+* [Proxy](Structural/Proxy) [:notebook:](http://pt.wikipedia.org/wiki/Proxy_(padr%C3%B5es_de_projeto)
 * [Registry](Structural/Registry) [:notebook:](http://en.wikipedia.org/wiki/Service_locator_pattern)
 
-### [Behavioral](Behavioral)
+### [Comportamental](Comportamental)
 
-* [ChainOfResponsibilities](Behavioral/ChainOfResponsibilities) [:notebook:](http://en.wikipedia.org/wiki/Chain_of_responsibility_pattern)
-* [Command](Behavioral/Command) [:notebook:](http://en.wikipedia.org/wiki/Command_pattern)
-* [Iterator](Behavioral/Iterator) [:notebook:](http://en.wikipedia.org/wiki/Iterator_pattern)
-* [Mediator](Behavioral/Mediator) [:notebook:](http://en.wikipedia.org/wiki/Mediator_pattern)
-* [Memento](Behavioral/Memento) [:notebook:](http://en.wikipedia.org/wiki/Memento_pattern)
+* [ChainOfResponsibilities](Behavioral/ChainOfResponsibilities) [:notebook:](http://pt.wikipedia.org/wiki/Chain_of_Responsibility)
+* [Command](Behavioral/Command) [:notebook:](http://pt.wikipedia.org/wiki/Command)
+* [Iterator](Behavioral/Iterator) [:notebook:](http://pt.wikipedia.org/wiki/Iterator)
+* [Mediator](Behavioral/Mediator) [:notebook:](http://pt.wikipedia.org/wiki/Mediator)
+* [Memento](Behavioral/Memento) [:notebook:](http://pt.wikipedia.org/wiki/Memento_(inform%C3%A1tica))
 * [NullObject](Behavioral/NullObject) [:notebook:](http://en.wikipedia.org/wiki/Null_Object_pattern)
-* [Observer](Behavioral/Observer) [:notebook:](http://en.wikipedia.org/wiki/Observer_pattern)
+* [Observer](Behavioral/Observer) [:notebook:](http://pt.wikipedia.org/wiki/Observer)
 * [Specification](Behavioral/Specification) [:notebook:](http://en.wikipedia.org/wiki/Specification_pattern)
-* [State](Behavioral/State) [:notebook:](http://en.wikipedia.org/wiki/State_pattern)
-* [Strategy](Behavioral/Strategy) [:notebook:](http://en.wikipedia.org/wiki/Strategy_pattern)
-* [TemplateMethod](Behavioral/TemplateMethod) [:notebook:](http://en.wikipedia.org/wiki/Template_method_pattern)
-* [Visitor](Behavioral/Visitor) [:notebook:](http://en.wikipedia.org/wiki/Visitor_pattern)
+* [State](Behavioral/State) [:notebook:](http://pt.wikipedia.org/wiki/State)
+* [Strategy](Behavioral/Strategy) [:notebook:](http://pt.wikipedia.org/wiki/Strategy)
+* [TemplateMethod](Behavioral/TemplateMethod) [:notebook:](http://pt.wikipedia.org/wiki/Template_Method)
+* [Visitor](Behavioral/Visitor) [:notebook:](http://pt.wikipedia.org/wiki/Visitor_pattern)
 
-### [More](More)
+### [Mais](Mais)
 * [Delegation](More/Delegation) [:notebook:](http://en.wikipedia.org/wiki/Delegation_pattern)
 * [ServiceLocator](More/ServiceLocator) [:notebook:](http://en.wikipedia.org/wiki/Service_locator_pattern)
 * [Repository](More/Repository)
 
-## Contribute
+## Contribua
 
-Please feel free to fork and extend existing or add your own examples and send a pull request with your changes!
-To establish a consistent code quality, please check your code using [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) against [PSR2 standard](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md) using `./vendor/bin/phpcs -p --standard=PSR2 --ignore=vendor .`.
+Este projeto é a tradução do repo [DesignPatternsPHP](https://github.com/domnikl/DesignPatternsPHP). 
+Para complementar/corrigir algo, por favor, faça um pull request no repo original 
+(em inglês) e, assim que possível, a correção/melhoria será colocada aqui.
 
-## License
+## Licença
 
 (The MIT License)
 
