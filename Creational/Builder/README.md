@@ -14,10 +14,10 @@ complexa de para Builders também.
 Nota: Builders frequentemente possuem uma interface fluida (fluent interface). 
 Veja o mock builder do PHPUnit, por exemplo.
 
-## Examplos
+## Exemplos
 
 * PHPUnit: Mock Builder
 
-## UML Diagram
+## Diagrama UML
 
 ![Alt Builder UML Diagram](uml/uml.png)
