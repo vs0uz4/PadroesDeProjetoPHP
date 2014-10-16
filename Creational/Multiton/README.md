@@ -1,16 +1,18 @@
 # Multiton
 
-**THIS IS CONSIDERED TO BE AN ANTI-PATTERN! FOR BETTER TESTABILITY AND MAINTAINABILITY USE DEPENDENCY INJECTION!**
+**ISSO É CONSIDERADO UM ANTI-PATTERN! PARA UMA MELHOR TESTABILIDADE E 
+MANTENIBILIDADE, USE INJEÇÃO DE DEPENDÊNCIA!**
 
-# Purpose
+# Propósito
 
-To have only a list of named instances that are used, like a singleton but with n instances.
+Ter apenas uma lista de instâncias nomeadas que serão usadas, tal como Singleton, 
+mas com N instâncias.
 
-# Examples
+# Exemplos
 
-* 2 DB Connectors, e.g. one for MySQL, the other for SQLite
-* multiple Loggers (one for debug messages, one for errors)
+* 2 DB Connectors, por exemplo, 1 para MySQL e outro para SQLite
+* Múltiplos Loggers (1 para mensagens de debug e outro para erros)
 
-## UML Diagram
+## Diagrama UML
 
 ![Alt Multiton UML Diagram](uml/uml.png)

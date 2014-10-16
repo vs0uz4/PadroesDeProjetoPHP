@@ -1,13 +1,15 @@
 # Prototype
 
-## Purpose
+## Propósito
 
-To avoid the cost of creating objects the standard way (new Foo()) and instead create a prototype and clone it.
+Evitar o custo de criar objetos da maneira tradicional (`new Foo()`) e, ao invés, 
+criar um protótipo (prototype) e cloná-lo
 
-## Examples
+## Exemplos
 
-* Large amounts of data (e.g. create 1,000,000 rows in a database at once via a ORM).
+* Grandes quantidades de dados (por exemplo, criar 1.000.000 de linhas em um BD 
+de uma vez via um ORM)
 
-## UML Diagram
+## Diagrama UML
 
 ![Alt Prototype UML Diagram](uml/uml.png)

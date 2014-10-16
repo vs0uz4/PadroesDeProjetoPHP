@@ -1,15 +1,17 @@
 # Static Factory
 
-## Purpose
+## Propósito
 
-Similar to the AbstractFactory, this pattern is used to create series of related or dependent objects.
-The difference between this and the abstract factory pattern is that the static factory pattern uses just one static
-method to create all types of objects it can create. It is usually named `factory` or `build`.
+Similarmente à Abstract Factory, esse padrão é usado para criar uma série de 
+objetos dependentes ou relacionados. A diferença entre um e outro é que o Padrão 
+Static Factory usa apenas um método estático para criar todos os tipos de objetos
+que ele pode criar. Geralmente, é chamado "factory" ou "build".
 
-## Examples
+## Exemplos
 
-* Zend Framework: `Zend_Cache_Backend` or `_Frontend` use a factory method create cache backends or frontends
+* Zend Framework: `Zend_Cache_Backend` or `_Frontend` usa um método factory para 
+criar cache de backends ou frontends
 
-## UML Diagram
+## Diagrama UML
 
 ![Alt StaticFactory UML Diagram](uml/uml.png)

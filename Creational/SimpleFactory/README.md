@@ -1,13 +1,15 @@
 # Simple Factory
 
-## Purpose
+## Propósito
 
-ConcreteFactory is a simple factory pattern.
+Concrete Factory é um Padrão simples de factory (fábrica).
 
-It differs from the static factory because it is NOT static and as you know: static => global => evil!
+Difere da Static Factory porque NÃO É estático e, como você sabe, `static` => 
+`global` => evil!
 
-Therefore, you can have multiple factories, differently parametrized, you can subclass it and you can mock-up it.
+Portanto, você pode ter múltiplas factories diferentemente parametrizadas, pode 
+"subclassear" e pode usar mockups.
 
-## UML Diagram
+## Diagrama UML
 
 ![Alt SimpleFactory UML Diagram](uml/uml.png)

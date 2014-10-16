@@ -1,15 +1,20 @@
 # Factory Method
 
-## Purpose
+## Propósito
 
-The good point over the SimpleFactory is you can subclass it to implement different ways to create objects
+O bom do SimpleFactory é que você pode "subclasseá-lo" para implementar diferentes 
+maneiras de criar objetos.
 
-For simple case, this abstract class could be just an interface
+Para casos simples, essa classe abstrata poderia ser apenas uma internface.
 
-This pattern is a "real" Design Pattern because it achieves the "Dependency Inversion Principle" a.k.a the "D" in S.O.L.I.D principles.
+Esse Padrão é um Padrão de Projeto "real" porque está consonante ao Princípio da 
+Inversão de Dependência (Dependency Inversion Principle), o "D" dos princípios 
+S.O.L.I.D.
 
-It means the FactoryMethod class depends on abstractions, not concrete classes. This is the real trick compared to SimpleFactory or StaticFactory.
+Isso significa que a classe FactoryMethod depende de abstrações, não de classes 
+concretas. Esse é o verdadeiro "truque" comparado a Simple Factory ou Static 
+Factory.
 
-## UML Diagram
+## Diagrama UML
 
 ![Alt FactoryMethod UML Diagram](uml/uml.png)

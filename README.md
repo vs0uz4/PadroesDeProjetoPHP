@@ -13,7 +13,7 @@ Os Padrões de Projeto podem ser estruturados em 3 categorias diferentes. Clique
 no :notebook: para uma explicação completa na Wikipedia -- sempre que possível 
 em português, mas pode haver algumas em inglês.
 
-### [Creacional](Creacional)
+### [Criacional](Criacional)
 
 * [AbstractFactory](Creational/AbstractFactory) [:notebook:](http://pt.wikipedia.org/wiki/Abstract_Factory)
 * [Builder](Creational/Builder) [:notebook:](http://pt.wikipedia.org/wiki/Builder)

@@ -1,17 +1,19 @@
 # Singleton
 
-**THIS IS CONSIDERED TO BE AN ANTI-PATTERN! FOR BETTER TESTABILITY AND MAINTAINABILITY USE DEPENDENCY INJECTION!**
+**ISSO É CONSIDERADO UM ANTI-PATTERN! PARA UMA MELHOR TESTABILIDADE E 
+MANTENIBILIDADE, USE INJEÇÃO DE DEPENDÊNCIA!**
 
-## Purpose
+# Propósito
 
-To have only one instance of this object in the application that will handle all calls.
+Ter apenas uma instância de um objeto na aplicação que irá lidar com as chamadas.
 
-## Examples
+## Exemplos
 
 * DB Connector
-* Logger (may also be a Multiton if there are many log files for several purposes)
-* Lock file for the application (there is only one in the filesystem ...)
+* Logger (também pode ser um Multiton se houver vários arquivos de log para vários 
+propósitos diferentes
+* Travar um arquivo para a aplicação (há somente um no sistema de arquivos...)
 
-## UML Diagram
+## Diagrama UML
 
 ![Alt Singleton UML Diagram](uml/uml.png)

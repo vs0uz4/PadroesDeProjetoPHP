@@ -1,16 +1,20 @@
 # Builder
 
-## Purpose
+## Propósito
 
-Builder is an interface that build parts of a complex object.
+Builder é uma interface que constrói partes de um objeto complexo.
 
-Sometimes, if the builder has a better knowledge of what it builds, this  interface could be an abstract class with default methods (aka adapter).
+Às vezes, se o Builder tem um melhor entendimento sobre o quê está sendo 
+construído, essa interface pode ser uma classe abstrata com métodos padrão ( 
+também conhecidos como Adapter).
 
-If you have a complex inheritance tree for objects, it is logical to have a complex inheritance tree for builders too.
+Se você tem uma árvore de herança complexa de objetos, é lógico ter uma árvore 
+complexa de para Builders também.
 
-Note: Builders have often a fluent interface, see the mock builder of PHPUnit for example.
+Nota: Builders frequentemente possuem uma interface fluida (fluent interface). 
+Veja o mock builder do PHPUnit, por exemplo.
 
-## Examples
+## Examplos
 
 * PHPUnit: Mock Builder
 

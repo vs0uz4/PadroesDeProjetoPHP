@@ -1,12 +1,27 @@
 Pool
 ====
 
-The **object pool pattern** is a software creational design pattern that uses a set of initialized objects kept ready to use – a "pool" – rather than allocating and destroying them on demand. A client of the pool will request an object from the pool and perform operations on the returned object. When the client has finished, it returns the object, which is a specific type of factory object, to the pool rather than destroying it.
+## Propósito
 
-Object pooling can offer a significant performance boost in situations where the cost of initializing a class instance is high, the rate of instantiation of a class is high, and the number of instances in use at any one time is low. The pooled object is obtained in predictable time when creation of the new objects (especially over network) may take variable time.
+Ser um Padrão de Projeto que usa uma série de objetos 
+inicializados mantidos prontos para uso -- uma "pool" (poço, tanque) -- ao invés 
+de os instânciar e destruir conforme a demanda. Um cliente requererá um objeto da 
+poll e fará operações neste objeto retornado. Quando o cliente tiver terminado, 
+retornará o objeto -- que é um tipo específico de objeto "factory" -- para a poll 
+ao invés de destruí-lo.
 
-However these benefits are mostly true for objects that are expensive with respect to time, such as database connections, socket connections, threads and large graphic objects like fonts or bitmaps. In certain situations, simple object pooling (that hold no external resources, but only occupy memory) may not be efficient and could decrease performance.
+Usar este Padrão pode oferecer uma melhoria significativa de performance em 
+situações em que o custo de inicializar um objeto é alto, a taxa de instânciação 
+é alta e o número de instâncias em uso a qualquer momento é baixo. O objeto 
+retirado da poll é obtido em um tempo previsível quando a criação de novos 
+objetos (especialmente através da rede) pode levar algum tempo.
 
-## UML Diagram
+Entretanto, esses benefícios são em sua maioria verdadeiros para objetos que são 
+dispendiosos em relação ao tempo, tal como conexões a BDs, conexões a sockets, 
+threads e grandes objetos de gráficos como fontes e bitmaps. Em certas situações, 
+"object pooling" (que não armazena nenhum recurso externo, mas ocupa memória) 
+pode não ser eficiente e pode ocasionar decréscimo de performance.
+
+## Diagrama UML
 
 ![Alt Pool UML Diagram](uml/uml.png)
