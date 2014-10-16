@@ -1,21 +1,24 @@
 # Facade
 
-## Purpose
+## Propósito
 
-The primary goal of a Facade Pattern is not to avoid you to read the manual of a complex API. It's only a side-effect.
-The first goal is to reduce coupling and follow the Law of Demeter.
+O propósito primário do Padrão Facade (pronuncia-se "façade") não é evitar que 
+você leia o manual de uma API complexa. Isso é somente um efeito colateral. Seu 
+propósito primário é reduzir o acoplamento e seguir a [Lei de Demeter](http://pt.wikipedia.org/wiki/Usu%C3%A1rio(a)):Kunigami/Lei_de_Dem%C3%A9ter).
 
-A Facade is meant to decouple a client and a sub-system by embedding many (but sometimes just one) interface, and of course to reduce complexity.
+Um Facade pretende desacoplar um cliente e um subsistema ao fazer embedding de 
+várias interfaces (mas às vezes pode ser somente uma) e, claro, reduzir 
+complexidade.
 
-* A facade does not forbid you the access to the sub-system
-* You can (you should) have multiple facades for one sub-system
+* Um Facade não  proíbe o acesso ao subsistema
+* É possível (e desejável) ter múltiplos Facades, um para cada subsistema
 
-That's why a good facade has no `new` in it. If there are multiple creations for each method, it is not a Facade, it's a Builder or a
-[Abstract|Static|Simple] Factory [Method].
+Esse é o motivo pelo qual um bom Facade não tem um `new`. Se houver múltiplas 
+criações para cada método isso não é um Facade, é um Builder ou [Abstract|Static|Simple] Factory [Method]
 
-The best facade has no `new` and a constructor with interface-type-hinted parameters.
-If you need creation of new instances, use a Factory as argument.
+O melhor Facade não tem `new` e um construtor com parâmetros de interface/type hint. 
+Se você precisa criar novas instâncias, use um Factory como argumento.
 
-## UML Diagram
+## Diagrama UML
 
 ![Alt Facade UML Diagram](uml/uml.png)

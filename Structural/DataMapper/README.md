@@ -1,22 +1,26 @@
 # Data Mapper
 
-## Purpose
+## Propósito
 
-A Data Mapper, is a Data Access Layer that performs bidirectional transfer of
-data between a persistent data store (often a relational database) and an in
-memory data representation (the domain layer). The goal of the pattern is to
-keep the in memory representation and the persistent data store independent of
-each other and the data mapper itself. The layer is composed of one or more
-mappers (or Data Access Objects), performing the data transfer. Mapper
-implementations vary in scope. Generic mappers will handle many different domain
-entity types, dedicated mappers will handle one or a few.
+Um Data Mapper é uma camada de acesso a dados que realiza transferências 
+bidirecionais e dados entre uma cama de persistência (geralmente um Banco de 
+Dados Relacional) e uma representação de dados em memória (a camada de domínio). 
+O objetivo desse Padrão é manter a representação de dados em memória e a camada 
+de persistência de dados independentes uma da outra e do próprio Data Mapper. 
 
-The key point of this pattern is, unlike Active Record pattern, the data model follows Single Responsibility Principle.
+A camada é composta por um ou mais mappers -- ou Data Access Objects (Objetos de 
+Acesso a Dados) -- fazendo a transferência de dados. Cada implementação de um 
+mapper varia em escopo: mappers genéricos lidarão com vários tipos diferentes de 
+entidades de domínio; mappers dedicados lidarão com um ou alguns.
 
-## Examples
+A chave desse Padrão -- diferentemente do Active Record -- é fazer com que o 
+modelo de dados (data model) siga o Princípio da Responsabilidade Única do 
+S.O.L.I.D.
 
-* DB Object Relational Mapper (ORM) : Doctrine2 uses DAO named as "EntityRepository"
+## Exemplos
 
-## UML Diagram
+* DB Object Relational Mapper (ORM): Doctrine2 usa um DAO chamado "EntityRepository"
+
+## Diagrama UML
 
 ![Alt DataMapper UML Diagram](uml/uml.png)

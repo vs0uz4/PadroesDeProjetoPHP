@@ -1,14 +1,18 @@
 # Adapter / Wrapper
 
-## Purpose
+## Propósito
 
-To translate one interface for a class into a compatible interface. An adapter allows classes to work together that normally could not because of incompatible interfaces by providing it's interface to clients while using the original interface.
+Traduzir uma interface de uma classe em uma interface compatível. Um Adapter 
+permite classes que normalmente não trabalhariam juntas -- devido a 
+incompatibilidades de interface -- a fazer isso, provendo sua interface para 
+clientes enquanto usa a interface original.
 
-## Examples
+## Exemplos
 
-* DB Client libraries adapter
-* using multiple different webservices and adapters normalize data so that the outcome is the same for all
+* Adaptador de bibliotecas de clientes de BD
+* Múltiplos diferentes webservices e adapters para normalizar dados (então o 
+resultado é o mesmo para todos)
 
-## UML Diagram
+## Diagrama UML
 
 ![Alt Adapter UML Diagram](uml/uml.png)

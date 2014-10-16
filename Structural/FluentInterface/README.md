@@ -1,15 +1,16 @@
 # Fluent Interface
 
-## Purpose
+## Propósito
 
-To write code that is easy readable just like sentences in a natural language (like English).
+Escrever código que seja tão fácil de ler como sentenças em linguagem natural 
+(como Português ou Inglês).
 
-## Examples
+## Exemplos
 
-* Doctrine2's QueryBuilder works something like that example class below
-* PHPUnit uses fluent interfaces to build mock objects
-* Yii Framework: CDbCommand and CActiveRecord use this pattern, too
+* QueryBuilder do Doctrine2 trabalha mais ou menos como essa classe complexa abaixo
+* PHPUnit usa Fluent Interfaces para construir objetos mock
+* Yii Framework: CDbCommand e CActiveRecord usam esse Padrão, também
 
-## UML Diagram
+## Diagrama UML
 
 ![Alt FluentInterface UML Diagram](uml/uml.png)

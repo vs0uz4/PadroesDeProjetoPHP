@@ -1,13 +1,15 @@
 # Proxy
 
-## Purpose
+## Propósito
 
-To interface to anything that is expensive or impossible to duplicate.
+Fazer uma interface para qualquer coisa que seja custosa ou impossível de duplicar.
 
-## Examples
+## Exemplos
 
-* Doctrine2 uses proxies to implement framework magic (e.g. lazy initialization) in them, while the user still works with his own entity classes and will never use nor touch the proxies
+* Doctrine2 usa proxies para implementar mágica de framework -- por exemplo, 
+instanciação preguiçosa (lazy initialization) -- enquanto o usuário continua a 
+trabalhar com suas próprias classes e nunca usará ou nunca tocará nos proxies
 
-## UML Diagram
+## Diagrama UML
 
 ![Alt Proxy UML Diagram](uml/uml.png)

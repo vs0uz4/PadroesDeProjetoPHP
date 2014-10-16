@@ -1,20 +1,33 @@
 # Dependency Injection
 
-## Purpose
+## Propósito
 
-To implement a loosely coupled architecture in order to get better testable, maintainable and extendable code.
+Implementar arquitetura de baixo acoplamento para obter códigos mais testáveis, 
+manuteníveis e extensíveis.
 
-## Usage
+## Uso
 
-Configuration gets injected and `Connection` will get all that it needs from `$config`. Without DI, the configuration would be created directly in `Connection`, which is not very good for testing and extending `Connection`.
+A configuração é injetada e `Connection` irá pegar tudo o que for preciso de 
+`$config`. Sem DI -- Dependency Injection ou Injeção de Depenência --, a 
+configuração seria criada diretamente em `Connection`, o que não é muito bom para 
+testar e estender `Connection`.
 
-Notice we are following Inversion of control principle in `Connection` by asking `$config` to implement `Parameters` interface. This decouples our components. We don't care where the source of information comes from, we only care that `$config` has certain methods to retrieve that information. Read more about Inversion of control [here](http://en.wikipedia.org/wiki/Inversion_of_control).
+Perceba que se está seguindo o Princípio de Inversão de Controle em `Connection` 
+ao `$config` implementar a interface `Parameters`. Isso desacopla os componentes. 
+Não importa de onde vem a fonte de informação; somente importa que `$config` tem 
+certos métodos para retornar essa informação.
 
-## Examples
+[Leia mais sobre Inversão de Controle](http://pt.wikipedia.org/wiki/Invers%C3%A3o_de_controle).
 
-* The Doctrine2 ORM uses dependency injection e.g. for configuration that is injected into a `Connection` object. For testing purposes, one can easily create a mock object of the configuration and inject that into the `Connection` object
-* Symfony and Zend Framework 2 already have containers for DI that create objects via a configuration array and inject them where needed (i.e. in Controllers)
+## Exemplos
 
-## UML Diagram
+* O ORM Doctrine2 usa Injeção de Dependência em, por exemplo, configurações que 
+são injetadas em um objeto `Connection`. Para propósitos de teste, é possível criar 
+um objeto mock da configuração and injetá-lo num objeto `Connection`
+* Symfony e Zend Framework 2 já possuem contêiners para DI (Dependency Injection) 
+que criam objetos através de um array de configuração e os injeta onde é preciso 
+(por exemplo, em controllers)
+
+## Diagrama UML
 
 ![Alt DependencyInjection UML Diagram](uml/uml.png)

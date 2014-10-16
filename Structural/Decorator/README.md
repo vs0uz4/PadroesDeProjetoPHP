@@ -1,14 +1,15 @@
 # Decorator
 
-## Purpose
+## Propósito
 
-To dynamically add new functionality to class instances.
+Dinamicamente adicionar novas funcionalidades a instância de classes.
 
-## Examples
+## Exemplos
 
-* Zend Framework: decorators for `Zend_Form_Element` instances
-* Web Service Layer: Decorators JSON and XML for a REST service (in this case, only one of these should be allowed of course)
+* Zend Framework: decorators para instâncias de `Zend_Form_Element`
+* Web Service Layer: Decorators JSON e XML para um serviço REST (nesse caso, 
+obviamente apenas um desses deve ser permitido)
 
-## UML Diagram
+## Diagrama UML
 
 ![Alt Decorator UML Diagram](uml/uml.png)

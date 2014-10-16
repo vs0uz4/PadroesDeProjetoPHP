@@ -1,12 +1,15 @@
-## Purpose
+# Bridge
 
-Decouple an abstraction from its implementation so that the two can vary
-independently. (http://en.wikipedia.org/wiki/Bridge_pattern)
+## Propósito
 
-#### Sample:
+Desacoplar uma abstração de sua implementação para que ambos possam variar 
+de forma independente 
+(http://pt.wikipedia.org/wiki/Bridge_%28padr%C3%A3o_de_projeto_de_software%29).
+
+## Exemplo
 
 * [Symfony DoctrineBridge](https://github.com/symfony/DoctrineBridge)
 
-## UML Diagram
+## Diagrama UML
 
 ![Alt Bridge UML Diagram](uml/uml.png)

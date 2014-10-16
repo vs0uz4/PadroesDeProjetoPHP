@@ -1,15 +1,18 @@
 # Composite
 
-# Purpose
+## Propósito
 
-To treat a group of objects the same way as a single instance of the object.
+Tratar um grupo de objetos da mesma maneira, como se fossem uma instância de um 
+único objeto.
 
-# Examples
+## Exemplos
 
-* a form class instance handles all its form elements like a single instance of the form, when `render()` is called, it
-  subsequently runs through all its child elements and calls `render()` on them
-* `Zend_Config`: a tree of configuration options, each one is a `Zend_Config` object itself
+* Uma instância de uma classe de formulário lida com todos seus elementos como 
+se uma única instância desse formumário, quando `render()` é chamado, ele 
+subsequentemente roda através de todos seus elementos-filhos e chama `render()` 
+neles
+* `Zend_Config`: uma árvore de opções de configuração, cada uma é um objeto `Zend_Config`
 
-## UML Diagram
+## Diagrama UML
 
 ![Alt Composite UML Diagram](uml/uml.png)
