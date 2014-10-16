@@ -25,7 +25,7 @@ em português, mas pode haver algumas em inglês.
 * [Singleton](Creational/Singleton) [:notebook:](http://pt.wikipedia.org/wiki/Singleton) (considerado um anti-pattern! :no_entry:)
 * [StaticFactory](Creational/StaticFactory)
 
-### [Estrutural](Estrutural)
+### [Estrutural](Structural)
 
 * [Adapter](Structural/Adapter) [:notebook:](http://pt.wikipedia.org/wiki/Adapter)
 * [Bridge](Structural/Bridge) [:notebook:](http://pt.wikipedia.org/wiki/Bridge_%28padr%C3%A3o_de_projeto_de_software%29)
@@ -38,7 +38,7 @@ em português, mas pode haver algumas em inglês.
 * [Proxy](Structural/Proxy) [:notebook:](http://pt.wikipedia.org/wiki/Proxy_%28padr%C3%B5es_de_projeto%29)
 * [Registry](Structural/Registry) [:notebook:](http://en.wikipedia.org/wiki/Service_locator_pattern)
 
-### [Comportamental](Comportamental)
+### [Comportamental](Behavioral)
 
 * [ChainOfResponsibilities](Behavioral/ChainOfResponsibilities) [:notebook:](http://pt.wikipedia.org/wiki/Chain_of_Responsibility)
 * [Command](Behavioral/Command) [:notebook:](http://pt.wikipedia.org/wiki/Command)
@@ -53,7 +53,7 @@ em português, mas pode haver algumas em inglês.
 * [TemplateMethod](Behavioral/TemplateMethod) [:notebook:](http://pt.wikipedia.org/wiki/Template_Method)
 * [Visitor](Behavioral/Visitor) [:notebook:](http://pt.wikipedia.org/wiki/Visitor_pattern)
 
-### [Mais](Mais)
+### [Mais](More)
 * [Delegation](More/Delegation) [:notebook:](http://en.wikipedia.org/wiki/Delegation_pattern)
 * [ServiceLocator](More/ServiceLocator) [:notebook:](http://en.wikipedia.org/wiki/Service_locator_pattern)
 * [Repository](More/Repository)
