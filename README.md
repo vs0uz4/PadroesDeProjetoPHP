@@ -1,4 +1,4 @@
-# DesignPatternsPHP
+# Padrões de Projeto PHP
 
 Essa é uma coleção de Padrões de Projeto (Design Patterns) conhecidos junto com 
 exemplos de códigos mostrando como implementá-los em PHP. Cada Padrão tem uma 
