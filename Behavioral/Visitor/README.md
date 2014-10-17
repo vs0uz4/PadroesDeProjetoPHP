@@ -1,12 +1,15 @@
 # Visitor
 
-## Purpose
+## Propósito
 
-The Visitor Pattern lets you outsource operations on objects to other objects. The main reason to do this is to keep a separation of concerns.
-But classes have to define a contract to allow visitors (the `Role::accept` method in the example).
+Permite terceirizar operações de objetos para outros objetos. A razão principal 
+para se fazer isso é manter a separação de interesses. Mas classes têm de definir 
+um "contrato" para permitir visitantes (o método `Role::accept` no exemplo).
 
-The contract is an abstract class but you can have also a clean interface. In that case, each Visitor has to choose itself which method to invoke on the visitor.
+O contrato é uma classe abstrata, mas também é possível se ter uma interface. 
+Nesse caso, cada Visitor (Visitante) deve escolher qual método invocar no 
+visitante.
 
-## UML Diagram
+## Diagrama UML
 
 ![Alt Visitor UML Diagram](uml/uml.png)

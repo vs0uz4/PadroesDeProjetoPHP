@@ -1,10 +1,11 @@
 # Specification
 
-## Purpose
+## Propósito
 
-Builds a clear specification of business rules, where objects can be checked against. The composite specification class has
-one method called `isSatisfiedBy` that returns either true or false depending on whether the given object satisfies the specification.
+Construir uma especificação clara de regras de negócio, na qual objetos podem ser 
+verificados. A classe de especificação tem um método chamado `isSatisfiedBy` que 
+retorna `true` ou `false`, dependendo se dado objeto satisfaz a especificação.
 
-## UML Diagram
+## Diagrama UML
 
 ![Alt Specification UML Diagram](uml/uml.png)

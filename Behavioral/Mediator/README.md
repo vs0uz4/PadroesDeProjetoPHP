@@ -1,15 +1,16 @@
 # Mediator
 
-## Purpose
+## Propósito
 
-This pattern provides an easy to decouple many components working together.
-It is a good alternative over Observer IF you have a "central intelligence",
-like a controller (but not in the sense of the MVC).
+Desacoplar vários componentes que trabalham juntos.
 
-All components (called Colleague) are only coupled to the MediatorInterface and
-it is a good thing because in OOP, one good friend is better than many. This
-is the key-feature of this pattern.
+É uma boa alternativa em relação ao Observer SE você tem uma "inteligência 
+central", como um controller (não no sentido do MVC).
 
-## UML Diagram
+Todos componentes -- chamados Colleague (Colega) -- são acoplados apenas à 
+MediatorInterface e isso é uma boa coisa em OOP: um bom amigo é melhor que 
+vários. Essa é a característica-chave desse Padrão.
+
+## Diagrama UML
 
 ![Alt Mediator UML Diagram](uml/uml.png)

@@ -1,16 +1,23 @@
 # Chain Of Responsibilities
 
-## Purpose:
+## Propósito
 
-To build a chain of objects to handle a call in sequential order. If one object cannot handle a call, it delegates the call to the next in the chain and so forth.
+Construir uma cadeia de objetos para lidar com chamadas em ordem sequencial. Se 
+um objeto não pode lidar com uma chamada, delega essa chamada para o próximo na 
+cadeira (chain) e assim por diante.
 
-## Examples:
+## Exemplos
 
-* logging framework, where each chain element decides autonomously what to do with a log message
-* a Spam filter
-* Caching: first object is an instance of e.g. a Memcached Interface, if that "misses" it delegates the call to the database interface
-* Yii Framework: CFilterChain is a chain of controller action filters. the executing point is passed from one filter to the next along the chain, and only if all filters say "yes", the action can be invoked at last.
+* Framework de log, onde cada elemento da cadeia decide autonomamente o que fazer 
+com uma mensagem de log
+* Filtro de Spam
+* Caching: primeiro objeto é uma instância de, por exemplo, uma interface 
+Memcached; se ela não souber lidar com a requisição, passa para uma interface de 
+banco de dados
+* Yii Framework: CFilterChain é uma cadeia de filtros de ação de controller. O 
+ponto de execução é passado de um filtro para o próximo na cadeia e, apenas se 
+todos os filtros disserem "sim", a ação pode ser invocada.
 
-## UML Diagram
+## Diagrama UML
 
 ![Alt ChainOfResponsibility UML Diagram](uml/uml.png)

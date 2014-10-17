@@ -1,18 +1,21 @@
 # Observer
 
-## Purpose
+## Propósito
 
-To implement a publish/subscribe behaviour to an object, whenever a "Subject" object changes it's state, the attached
-"Observers" will be notified. It is used to shorten the amount of coupled objects and uses loose coupling instead.
+Implementar um comportamento publicar/subscrever a um objeto. Sempre que um  
+objeto "Subject" ("Assunto") muda seu estado, os "Observers" ("Observadores") 
+anexos serão notificados. Isso é usado para diminuir a quantidade de objetos 
+acoplados e proporcionar baixo acoplamento
 
-## Examples
+## Exemplos
 
-* a message queue system is observed to show the progress of a job in a GUI
+* Um sistema de fila de mensagem é "observado" para mostrar o progresso de um 
+job em uma GUI
 
-## Note
+## Nota
 
-PHP already defines two interfaces that can help to implement this pattern: SplObserver and SplSubject.
+PHP já define 2 interfaces que podem ajudar a implementar esse padrão: SplObserver and SplSubject.
 
-## UML Diagram
+## Diagrama UML
 
 ![Alt Observer UML Diagram](uml/uml.png)

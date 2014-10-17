@@ -1,24 +1,26 @@
 # Null Object
 
-## Purpose
+## Propósito
 
-NullOutput is a example of NullObject pattern. It is not formally a Design Pattern by the GoF but it's a schema which appears frequently enough to
-be a pattern. Furthermore it is a really good pattern in my opinion:
+NullOutput é um exemplo do Padrão Null Object. Não é formalmente um Padrão de 
+Projeto pelo GoF, mas é um esquema (schema) que aparece frequentemente, ao ponto 
+de ser um Padrão. Além disso, ao ser analisado, é realmente um bom Padrão:
 
-* the code in the client is simple
-* it reduces the chance of null pointer exception
-* less "if" => less test cases
+* O código no cliente é simples
+* Reduz a chande de null pointer exception
+* Menos `if`s => menos casos de uso
 
-Every time you have a method which returns an object or null, you should return an object or a `NullObject`. With NullObject, you don't need
-a statement like `if (!is_null($obj)) { $obj->callSomething(); }` anymore.
+Toda vez que se tem um método que retorna um objeto ou `null`, você deveria 
+retornar um objeto ou um `NullObject`. Com NullObject, você não precisa mais de 
+uma declaração como `if (!is_null($obj)) { $obj->callSomething(); }`.
 
-## Examples
+## Exemplos
 
-* Symfony2: null logger of profiler
-* Symfony2: null output in Symfony/Console
-* null handler in a Chain of Responsibilities pattern
-* null command in a Command pattern
+* Symfony2: null logger do profiler
+* Symfony2: null output em Symfony/Console
+* null handler num Padrão Chain of Responsibilities
+* null command num Padrão Command
 
-## UML Diagram
+## Diagrama UML
 
 ![Alt NullObject UML Diagram](uml/uml.png)

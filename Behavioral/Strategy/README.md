@@ -1,20 +1,22 @@
 # Strategy
 
-## Terminology:
+## Terminologia
 
-* Context
-* Strategy
-* Concrete Strategy
+* Context (Contexto)
+* Strategy (Estratégia)
+* Concrete Strategy (Estratégia Concreta)
 
-## Purpose
+## Propósito
 
-To separate strategies and to enable fast switching between them. Also this pattern is a good alternative to inheritance (instead of having an abstract class that is extended).
+Separar estratégias e permitir uma troca rápida entre elas. Esse padrão também 
+é uma boa alternativa a herança -- não é preciso ter uma classe abstrata que é 
+estendida.
 
-## Examples
+## Exemplos
 
-* sorting a list of objects, one strategy by date, the other by id
-* simplify unit testing: e.g. switching between file and in-memory storage
+* Ordenar uma lista de objetos, uma estratégia por data, outra por ID
+* Simplificar teste unitário: alternar entre armazenado em arquivo e em memória
 
-## UML Diagram
+## Diagrama UML
 
 ![Alt Strategy UML Diagram](uml/uml.png)

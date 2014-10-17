@@ -1,9 +1,11 @@
 # State
 
-## Purpose
+## Propósito
 
-Encapsulate varying behavior for the same routine based on an object's state.  This can be a cleaner way for an object to change its behavior at runtime without resorting to large monolithic conditional statements.
+Encapsular comportamento variante para a mesa rotina, baseado num estado 
+de objeto. Esse pode ser um caminho claro para um objeto mudar seu comportamento 
+em tempo de execução sem recorrer a grandes statements condicionais monolíticos.
 
-## UML Diagram
+## Diagrama UML
 
 ![Alt State UML Diagram](uml/uml.png)

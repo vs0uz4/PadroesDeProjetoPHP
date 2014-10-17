@@ -1,18 +1,19 @@
 # Template Method
 
-## Purpose
+## Propósito
 
-Template Method is a behavioral design pattern.
+Permitir que subclasses de uma template abstrato "termine" o comportamento de 
+um algoritmo. Também é conhecido como Princípio de Hollywood: "Não nos chame, 
+nós chamamos você" ("Don't call us, we call you"). 
 
-Perhaps you have encountered it many times already. The idea is to let subclasses of this abstract template "finish" the behavior of an algorithm.
+Essa classe não é chamada por subclasses; pelo contrário. Mas como? Com 
+abstração, evidentemente. Em outras palavras, é um esqueleto do algoritmo, ideal 
+para bibliotecas de frameworks. Quem está usando deve somente implementar um 
+método e a superclasse faz o restante do serviço.
 
-A.k.a the "Hollywood principle": "Don't call us, we call you." This class is not called by subclasses but the inverse.
-How? With abstraction of course.
+Essa é uma maneira fácil de desacoplar classes concretas e reduzir o copiar-colar, 
+e é por isso que você encontra esse Padrão por toda parte.
 
-In other words, this is a skeleton of algorithm, well-suited for framework libraries. The user has just to implement one method and the superclass do the job.
-
-It is an easy way to decouple concrete classes and reduce copy-paste, that's why you'll find it everywhere.
-
-## UML Diagram
+## Diagrama UML
 
 ![Alt TemplateMethod UML Diagram](uml/uml.png)
