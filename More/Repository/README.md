@@ -1,16 +1,23 @@
 # Repository
 
-## Purpose
+## Propósito
 
-Mediates between the domain and data mapping layers using a collection-like interface for accessing domain objects.
-Repository encapsulates the set of objects persisted in a data store and the operations performed over them, providing a more object-oriented view of the persistence layer.
-Repository also supports the objective of achieving a clean separation and one-way dependency between the domain and data mapping layers.
+Fazer a mediação entre domínio e camadas de data mapping usando interfaces tipo 
+coleção para acessar objetos de domínio.
 
-## Examples
+Esse Padrão encapsula o conjunto de objetos persistidos em armazenamento de dados 
+e as operações feitas nele, provendo uma visão mais orientada a objetos da 
+camada de persistência.
 
-* Doctrine 2 ORM: there is Repository that mediates between Entity and DBAL and contains methods to retrieve objects
-* Laravel Framework
+Repository também suporta o objetivo de alcançar uma separação clara e dependência 
+de mão única entre o domínio e camadas de data mapping.
 
-## UML Diagram
+## Exemplos
+
+* Doctrine2 ORM: há um Repository que faz a medicação entre Entity e DBAL e 
+contém métodos para retornar objetos
+* Framework Laravel
+
+## Diagrama UML
 
 ![Alt Repository UML Diagram](uml/uml.png)
